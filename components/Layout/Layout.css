@@ -13,3 +13,10 @@
   max-width: 1000px;
   margin: 0 auto;
 }
+
+
+.layoutBackground_test {
+  height: 200px;
+  color: red;
+  background-image: url('/assets/bg_pattern.png');
+}

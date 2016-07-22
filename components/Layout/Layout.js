@@ -28,6 +28,9 @@ class Layout extends React.Component {
     return (
       <div className="mdl-layout mdl-js-layout" ref={node => (this.root = node)}>
         <div className="mdl-layout__inner-container">
+
+          <div className={`${s.layoutBackground_test}`}>This is a test</div>
+
           <Header>
             <span className="mdl-layout-title">React Static Boilerplate</span>
             <div className="mdl-layout-spacer"></div>
